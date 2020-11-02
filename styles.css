@@ -16,8 +16,8 @@ header li{
     float: left;
     margin: 5px;
     border-radius: 200px;
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 }
 
 .learn-about img{
@@ -45,17 +45,19 @@ header li{
 .stories img{
     float: left;
     border-radius: 200px;
-	width: 300px;
-    height: 300px;
+	width: 275px;
+    height: 275px;
     margin: 20px;
     align-content: center;
 }
 
 .newsletter .form-group{
     display: inline;
+    align-items: center;
 }
 
 .newsletter{
+    display: flex;
     align-content: center;
     background-color: #48bb78;
     color: white;
@@ -80,7 +82,7 @@ header li{
     color: #6b7280;
 }
 
-header li:hover{
+header a:hover{
     color: #5a67d8;
 }
 
@@ -168,6 +170,6 @@ header .container{
 }
 
 .newsletter .container{
-    width: 400px;
-    align-items: center;
+    width: 350px;
+    align-content: center;
 }
